@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+}
+.calculator{
+    padding: 30px;
+    border: 1px solid slateblue;
+    border-radius: 20px;
+}
+.calculator form input{
+    margin:10px;
+    border: 0;
+    width: 60px;
+    color: black;
+    border: 1px solid green;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+form .display{
+    display: flex;
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 40px;
+}
+@media(max-width: 1080px ){
+    .container{
+        display: flex;
+        width: 1000px;
+        height: 1000px;
+    }
+
+}
+/* for iphone */
+@media(max-width:580px){
+    .container{
+        display: flex;
+        width: 430px;
+        height: 500px;
+        justify-content: center;
+    align-items: center;
+    }
+}
+
+
+
+
+
+
